@@ -12,9 +12,11 @@ import random
 #https://dototot.com/how-to-write-a-twitter-bot-with-python-and-tweepy/
 
 #Twitter auth stuff ripped from the article
+
+#to actually implement, put keys here
 CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
-ACCESS_KEY = '-CP1WP2GEn7ONp6Tam4JSLCLYbjDlFiV'
+ACCESS_KEY = ''
 ACCESS_SECRET = ''
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
